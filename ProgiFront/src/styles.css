@@ -1,0 +1,48 @@
+/* Styles pour le conteneur principal */
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
+  
+  /* Styles pour les boutons */
+  .sidebyside {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    gap: 1rem;
+  }
+  
+  
+  /* Styles pour la liste */
+  ul {
+    margin: 0 auto;
+    list-style: none;
+    max-width: 25rem;
+  }
+  
+  /* Styles pour chaque élément de la liste */
+  ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Styles pour le dernier élément de la liste (sans bordure inférieure) */
+  ul li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Styles pour les balises de texte à gauche */
+  ul li span {
+    font-weight: bold;
+  }
+  
+  /* Styles pour les données à droite */
+  ul li span.data {
+    color: #666;
+  }

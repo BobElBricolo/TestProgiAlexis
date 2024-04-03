@@ -1,0 +1,6 @@
+@ProgiBack_HostAddress = http://localhost:5106
+
+GET {{ProgiBack_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
